@@ -23,7 +23,7 @@ It demonstrates **Page Object Model (POM)**, **TestNG**, **Data-Driven Testing w
 openCartDemo/
 │── src/
 │ ├── test/java/pageObjects/ 	# Page classes (POM)
-│ ├── test/java/testCases/ 	# TestNG test classes
+│ ├── test/java/testCases/ 	# TestNG test classes 
 │ ├── test/java/testBase/ 	# Base class (WebDriver setup)
 │ ├── test/java/utilities/ 	# ExcelUtility, DataProviders, ExtentReporters 
 │ ├── test/resources/config.properties 	# Config (URL, credentials, browser, env)
