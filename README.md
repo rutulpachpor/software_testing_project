@@ -1,11 +1,10 @@
- 🚀 Selenium Automation Test (OpenCart Demo)
+# 🚀 Selenium Automation Test (OpenCart Demo)
 
 This is a **Selenium Automation Test Framework** created for the [OpenCart Demo](https://tutorialsninja.com/demo/) application.    
 It demonstrates **Page Object Model (POM)**, **TestNG**, **Data-Driven Testing with Excel**, **logging**, and **Dockerized Selenium Grid** for cross-browser testing.  
 
----
 
- ✨ Highlights
+ ## ✨ Highlights
 
 - 🧩 **Page Object Model (POM)** → Clean, reusable test code  
 - 🧪 **TestNG Framework** → Test management with groups, assertions, and reports  
@@ -16,9 +15,8 @@ It demonstrates **Page Object Model (POM)**, **TestNG**, **Data-Driven Testing w
 - ⚡ **Maven Build Tool** → Dependency management + test execution  
 - 🔄 **CI/CD Ready** → Can integrate with Jenkins / GitHub Actions  
 
----
 
- 📂 Project Structure
+## 📂 Project Structure
 
 openCartDemo/  
 │── src/  
@@ -41,7 +39,8 @@ openCartDemo/
 │── pom.xml  		# Maven dependencies  
 
 
- ⚙️ Setup & Execution
+
+ ## ⚙️ Setup & Execution
 
 1️⃣ Clone the Repo  
 git clone https://github.com/your-username/software_testing_project.git   
@@ -81,8 +80,9 @@ mvn test
 Right-click on master.xml, grouping.xml, or crossbrowsertesting.xml.  
 Select → Run As → TestNG Suite.  
 Reports (test-output & reports) will be generated automatically.  
+
   
-📊 Reporting & Logs  
+## 📊 Reporting & Logs  
 TestNG Default Reports → /test-output/  
 index.html → Detailed test execution summary  
 emailable-report.html → Lightweight HTML report  
@@ -96,8 +96,9 @@ Log4j2 Logs → /logs/automation.log
 Screenshots (on failure) → /screenshots/  
   
 ==> These reports can be opened in any browser for analysis.  
+
   
-✅ Test Cases  
+## ✅ Test Cases  
   
 ~ TC001_AccountRegistrationTest → Register a new account
 
@@ -107,7 +108,8 @@ Screenshots (on failure) → /screenshots/
 
 ~ TC_LoginDDT → Login test with multiple datasets (Excel-driven)
 
-👨‍💻 About This Project
+
+## 👨‍💻 About This Project
 
 ~ Selenium WebDriver automation with TestNG
 
