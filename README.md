@@ -42,22 +42,22 @@ openCartDemo/
 
  ## ⚙️ Setup & Execution
 
-1️⃣ Clone the Repo  
+1️⃣ **Clone the Repo**  
 git clone https://github.com/your-username/software_testing_project.git   
 cd software_testing_project  
   
-2️⃣ Install Dependencies  
+2️⃣ **Install Dependencies**  
 Make sure Java 17+ and Maven are installed. Then run:  
 mvn clean install   
   
-3️⃣ Configure Properties  
+3️⃣ **Configure Properties**  
 Edit config.properties as per your test environment:  
 execution_env=local           # local or remote (for Grid/Docker)  
 appURL=https://tutorialsninja.com/demo/  
 email=your-email@test.com (pachpor@gmail.com)  
 pwd=yourpassword (rutul)  
   
-▶️ Run all tests  
+▶️ **Run all tests**
 mvn test  
   
 Run by TestNG Group  
@@ -65,7 +65,7 @@ mvn test -groups=Sanity
 mvn test -groups=Regression  
 mvn test -groups=Master  
   
-▶️ Run on Dockerized Selenium Grid  
+▶️ **Run on Dockerized Selenium Grid**  
 Start Selenium Grid:  
 docker-compose up -d  
   
@@ -76,7 +76,7 @@ browser=chrome
 Run tests on Grid:  
 mvn test  
   
-▶️ Run from Eclipse IDE  
+▶️ **Run from Eclipse IDE**  
 Right-click on master.xml, grouping.xml, or crossbrowsertesting.xml.  
 Select → Run As → TestNG Suite.  
 Reports (test-output & reports) will be generated automatically.  
